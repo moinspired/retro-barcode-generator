@@ -1,11 +1,11 @@
 <div>
   <h1>Retro Barcode Generator</h1>
   <div class="contianer">
-      <span *ngFor='let number of colors'>
-        <span class="inner" [ngStyle]="{
-          'background-color': colors[randomVal],
+      <span class="upper" *ngFor='let number of randomizeColors'>
+        <div class="inner" [ngStyle]="{
+          'background-color': number,
           'font-weight': 'bold'
-        }" >ngStyle</span>
+        }" ></div>
       </span>
   </div>
 </div>
