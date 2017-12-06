@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+}
+
+span > spann.inner {
+    background: yellow;
+    border: 1px solid black;
+}
